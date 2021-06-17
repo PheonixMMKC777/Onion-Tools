@@ -1,0 +1,39 @@
+0008 - Battle Speed
+0020 & 0021 - What button is being held (808A = A,404A = B, 202A = Select, 101A = Start)
+
+
+0033 - Player walking direction (8up, 2left, 4down, 1right) AKA LOADED SPRITE
+0034 - Animation Force Walking?? Idk, but makes them run too
+0035 - Shift Character by X Pixels (instantly autocorrects.)
+0048 - Current Map your on (town/dungeon etc 114 Ur, 10 Kazus)
+
+033B
+
+601B - Current C (capacity)
+601C + 601D - Current Gil {2 BYTES!!!}
+
+6100 - P1 Job
+6101 - P1 Level
+6102 - P1 Dancing (job change dance)sd
+6103 to 6106 - P1 all gained XP {4 BYTES!!}
+610C & 610D - P1 HP {2 BYTES!!}
+610E & 610F - P1 Max HP {2 BYTES!!}
+
+6117 - P1 Strength
+6118 - P1 Agility
+6119 - P1 Vitality
+611A - P1 Intellect
+611B - P1 Mind
+6121 - P1 Attack Count
+6123 - p1 Attack count chance?
+
+6122 - P1 Accuracy
+
+750F also p1 job?
+
+620F - P1 Form
+7F41 - Current audio track
+7F42 - type number to make it play
+7F43 - uses another channel????
+7F44 - square channel 1 audio
+7F45 - Audio Speed

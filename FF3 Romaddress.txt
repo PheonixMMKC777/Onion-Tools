@@ -1,0 +1,5 @@
+07E1C0 (CDEF) Player HP and small Box around HP/MP
+07E1D0 (89AB) Menu Screen Color
+07E1D0 (CDEF) Red Player Palette warrior, white mage etc
+07E1E0 (0123) Blue Player Palette monk, blmage etc.
+07E1E0 (4567) Green Player Palette theif, Summoner etc.
