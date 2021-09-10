@@ -204,11 +204,11 @@ $savtool.location = New-Object System.Drawing.Point(0,130)
     $MPEMTIP = New-Object System.Windows.Forms.label 
     $MPEMTIP.Location = New-Object System.Drawing.Size(120,25)
     $MPEMTIP.Size = New-Object System.Drawing.Size(200,32)
-    $MPEMTIP.Text = "Clear        Gray         Blue         White"
-
+    $MPEMTIP.Text = "Clear      Shading     Main      White"
+     
 
     $MPEMIMPORT = New-Object System.Windows.Forms.Button
-    $MPEMIMPORT.Size = New-Object System.Drawing.Size(45,23)
+    $MPEMIMPORT.Size = New-Object System.Drawing.Size(50,23)
     $MPEMIMPORT.Location = New-Object System.Drawing.Size(320,38)
     $MPEMIMPORT.Text = "Import"
     $MPEMIMPORT.Add_click({ImportCMP})
